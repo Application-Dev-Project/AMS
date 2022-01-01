@@ -190,7 +190,7 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-sm-6 m-b-20">
-                                    <img src="{{ URL::to('assets/img/imgams.png') }}" class="inv-logo" alt="">
+                                    <img src="{{ URL::to('assets/img/ams.png') }}" class="inv-logo" alt="">
                                      <ul class="list-unstyled">
                                         <li>Soeng Souy</li>
                                         <li>3864 Quiet Valley Lane,</li>

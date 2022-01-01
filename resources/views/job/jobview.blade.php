@@ -7,7 +7,7 @@
             <!-- Logo -->
             <div class="header-left">
                 <a href="{{ route('home') }}" class="logo">
-                    <img src="{{ URL::to('assets/img/imgams.png') }}" width="40" height="40" alt="">
+                    <img src="{{ URL::to('assets/img/ams.png') }}" width="40" height="40" alt="">
                 </a>
             </div>
             <!-- /Logo -->
