@@ -9,7 +9,7 @@
         <meta name="robots" content="noindex, nofollow">
         <title>Settings - HRMS</title>
 		<!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="{{ URL::to('assets/img/favicon.png') }}">
+        <link rel="shortcut icon" type="image/x-icon" href="{{ URL::to('assets/img/imgams.png') }}">
 		<!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ URL::to('assets/css/bootstrap.min.css') }}">
 		<!-- Fontawesome CSS -->
@@ -34,7 +34,7 @@
 				<!-- Logo -->
                 <div class="header-left">
                     <a href="{{ route('home') }}" class="logo">
-						<img src="{{ URL::to('assets/img/logo.png') }}" width="40" height="40" alt="">
+						<img src="{{ URL::to('assets/img/imgams.png') }}" width="40" height="40" alt="">
 					</a>
                 </div>
 				<!-- /Logo -->
