@@ -56,19 +56,6 @@
                     </li>
                     <li class="menu-title"> <span>HR</span> </li>
                     <li class="submenu">
-                        <a href="#">
-                            <i class="la la-files-o"></i>
-                            <span> Sales </span> 
-                            <span class="menu-arrow"></span>
-                        </a>
-                        <ul style="display: none;">
-                            <li><a href="estimates.html">Estimates</a></li>
-                            <li><a href="{{ route('form/invoice/view/page') }}">Invoices</a></li>
-                            <li><a href="payments.html">Payments</a></li>
-                            <li><a href="expenses.html">Expenses</a></li>
-                            <li><a href="provident-fund.html">Provident Fund</a></li>
-                            <li><a href="taxes.html">Taxes</a></li>
-                        </ul>
                     </li>
                     <li class="submenu"> <a href="#"><i class="la la-money"></i>
                         <span> Payroll </span> <span class="menu-arrow"></span></a>
@@ -90,30 +77,6 @@
                             <li><a href="{{ route('form/leave/reports/page') }}"> Leave Report </a></li>
                             <li><a href="{{ route('form/daily/reports/page') }}"> Daily Report </a></li>
                         </ul>
-                    </li>
-                    <li class="menu-title"> <span>Performance</span> </li>
-                    <li class="submenu"> <a href="#"><i class="la la-graduation-cap"></i>
-                        <span> Performance </span> <span class="menu-arrow"></span></a>
-                        <ul style="display: none;">
-                            <li><a href="{{ route('form/performance/indicator/page') }}"> Performance Indicator </a></li>
-                            <li><a href="{{ route('form/performance/page') }}"> Performance Review </a></li>
-                            <li><a href="{{ route('form/performance/appraisal/page') }}"> Performance Appraisal </a></li>
-                        </ul>
-                    </li>
-                    <li class="submenu"> <a href="#"><i class="la la-edit"></i>
-                        <span> Training </span> <span class="menu-arrow"></span></a>
-                        <ul style="display: none;">
-                            <li><a href="{{ route('form/training/list/page') }}"> Training List </a></li>
-                            <li><a href="trainers.html"> Trainers</a></li>
-                            <li><a href="training-type.html"> Training Type </a></li>
-                        </ul>
-                    </li>
-                    <li><a href="promotion.html"><i class="la la-bullhorn"></i> <span>Promotion</span></a></li>
-                    <li><a href="resignation.html"><i class="la la-external-link-square"></i> <span>Resignation</span></a></li>
-                    <li><a href="termination.html"><i class="la la-times-circle"></i> <span>Termination</span></a></li>
-                    <li class="menu-title"> <span>Administration</span> </li>
-                    <li> <a href="assets.html"><i class="la la-object-ungroup">
-                       
                     </li>
                     <li class="menu-title"> <span>Pages</span> </li>
                     <li class="submenu"> <a href="#"><i class="la la-user"></i>
@@ -176,28 +139,6 @@
                         <div class="card-body"> <span class="dash-widget-icon"><i class="fa fa-user"></i></span>
                             <div class="dash-widget-info">
                                 <h3>218</h3> <span>Employees</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-6 text-center">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h3 class="card-title">Total Revenue</h3>
-                                    <div id="bar-charts"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 text-center">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h3 class="card-title">Sales Overview</h3>
-                                    <div id="line-charts"></div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -490,6 +431,7 @@
                 <div class="col-md-6 d-flex">
                     <div class="card card-table flex-fill">
                       
+    
                 </div>
             </div>
         </div>
