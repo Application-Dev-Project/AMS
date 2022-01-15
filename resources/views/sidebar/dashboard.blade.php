@@ -37,12 +37,9 @@
                     <li class="menu-title"> <span>HR</span> </li>
                     <li class="submenu"> <a href="#"><i class="la la-files-o"></i> <span> Sales </span> <span class="menu-arrow"></span></a>
                         <ul style="display: none;">
-                            <li><a href="estimates.html">Estimates</a></li>
+
                             <li><a href="invoices.html">Invoices</a></li>
-                            <li><a href="payments.html">Payments</a></li>
-                            <li><a href="expenses.html">Expenses</a></li>
-                            <li><a href="provident-fund.html">Provident Fund</a></li>
-                            <li><a href="taxes.html">Taxes</a></li>
+
                         </ul>
                     </li>
                     <li class="submenu"> <a href="#"><i class="la la-files-o"></i> <span> Accounting </span> <span class="menu-arrow"></span></a>
@@ -76,6 +73,7 @@
                             <li><a href="daily-reports.html"> Daily Report </a></li>
                         </ul>
                     </li>
+                    <!-- Account Logo
                     <li class="menu-title"> <span>Performance</span> </li>
                     <li class="submenu"> <a href="#"><i class="la la-graduation-cap"></i> <span> Performance </span> <span class="menu-arrow"></span></a>
                         <ul style="display: none;">
@@ -83,6 +81,7 @@
                             <li><a href="performance.html"> Performance Review </a></li>
                             <li><a href="performance-appraisal.html"> Performance Appraisal </a></li>
                         </ul>
+                    -->
                     </li>
                     <li class="submenu"> <a href="#"><i class="la la-crosshairs"></i> <span> Goals </span> <span class="menu-arrow"></span></a>
                         <ul style="display: none;">

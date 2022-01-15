@@ -62,12 +62,9 @@
                             <span class="menu-arrow"></span>
                         </a>
                         <ul style="display: none;">
-                            <li><a href="estimates.html">Estimates</a></li>
+                            
                             <li><a href="{{ route('form/invoice/view/page') }}">Invoices</a></li>
-                            <li><a href="payments.html">Payments</a></li>
-                            <li><a href="expenses.html">Expenses</a></li>
-                            <li><a href="provident-fund.html">Provident Fund</a></li>
-                            <li><a href="taxes.html">Taxes</a></li>
+
                         </ul>
                     </li>
                     <li class="submenu"> <a href="#"><i class="la la-money"></i>
@@ -91,6 +88,7 @@
                             <li><a href="{{ route('form/daily/reports/page') }}"> Daily Report </a></li>
                         </ul>
                     </li>
+                    <!-- 
                     <li class="menu-title"> <span>Performance</span> </li>
                     <li class="submenu"> <a href="#"><i class="la la-graduation-cap"></i>
                         <span> Performance </span> <span class="menu-arrow"></span></a>
@@ -100,6 +98,7 @@
                             <li><a href="{{ route('form/performance/appraisal/page') }}"> Performance Appraisal </a></li>
                         </ul>
                     </li>
+                     -->
                     <li class="submenu"> <a href="#"><i class="la la-edit"></i>
                         <span> Training </span> <span class="menu-arrow"></span></a>
                         <ul style="display: none;">
@@ -108,9 +107,13 @@
                             <li><a href="training-type.html"> Training Type </a></li>
                         </ul>
                     </li>
+                    <!--
                     <li><a href="promotion.html"><i class="la la-bullhorn"></i> <span>Promotion</span></a></li>
                     <li><a href="resignation.html"><i class="la la-external-link-square"></i> <span>Resignation</span></a></li>
+                  
                     <li><a href="termination.html"><i class="la la-times-circle"></i> <span>Termination</span></a></li>
+                  --> 
+                    
                     <li class="menu-title"> <span>Administration</span> </li>
                     <li> <a href="assets.html"><i class="la la-object-ungroup">
                         </i> <span>Assets</span></a>
@@ -131,6 +134,7 @@
                             <li><a href="apptitude-result.html"> Aptitude Results </a></li>
                         </ul>
                     </li>
+                -->
                     <li class="menu-title"> <span>Pages</span> </li>
                     <li class="submenu"> <a href="#"><i class="la la-user"></i>
                         <span> Profile </span> <span class="menu-arrow"></span></a>
@@ -197,86 +201,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-6 text-center">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h3 class="card-title">Total Revenue</h3>
-                                    <div id="bar-charts"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 text-center">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h3 class="card-title">Sales Overview</h3>
-                                    <div id="line-charts"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card-group m-b-30">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <div> <span class="d-block">New Employees</span> </div>
-                                    <div> <span class="text-success">+10%</span> </div>
-                                </div>
-                                <h3 class="mb-3">10</h3>
-                                <div class="progress mb-2" style="height: 5px;">
-                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p class="mb-0">Overall Employees 218</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <div> <span class="d-block">Earnings</span> </div>
-                                    <div> <span class="text-success">+12.5%</span> </div>
-                                </div>
-                                <h3 class="mb-3">$1,42,300</h3>
-                                <div class="progress mb-2" style="height: 5px;">
-                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p class="mb-0">Previous Month <span class="text-muted">$1,15,852</span></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <div> <span class="d-block">Expenses</span> </div>
-                                    <div> <span class="text-danger">-2.8%</span> </div>
-                                </div>
-                                <h3 class="mb-3">$8,500</h3>
-                                <div class="progress mb-2" style="height: 5px;">
-                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p class="mb-0">Previous Month <span class="text-muted">$7,500</span></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <div> <span class="d-block">Profit</span> </div>
-                                    <div> <span class="text-danger">-75%</span> </div>
-                                </div>
-                                <h3 class="mb-3">$1,12,000</h3>
-                                <div class="progress mb-2" style="height: 5px;">
-                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p class="mb-0">Previous Month <span class="text-muted">$1,42,000</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Total Revenue & Sales Graph -->
+
+            <!-- New Employees, Earnings, Expenses, Profit -->
             {{-- message --}}
             {!! Toastr::message() !!}
             <!-- Statistics Widget -->
