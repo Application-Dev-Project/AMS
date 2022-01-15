@@ -428,6 +428,9 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-md-6 d-flex">
+                    <div class="card card-table flex-fill">
+                      
     
                 </div>
             </div>
