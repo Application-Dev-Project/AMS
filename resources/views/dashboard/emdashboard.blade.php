@@ -102,6 +102,7 @@
                             <li><a href="{{ route('form/daily/reports/page') }}"> Daily Report </a></li>
                         </ul>
                     </li>
+
                      -->
                     <li class="menu-title"> <span>Performance</span> </li>
                     <li class="submenu"> <a href="#"><i class="la la-graduation-cap"></i>
@@ -145,6 +146,7 @@
                             <li><a href="apptitude-result.html"> Aptitude Results </a></li>
                         </ul>
                     </li>
+
                     <li class="menu-title"> <span>Pages</span> </li>
                     <li class="submenu"> <a href="#"><i class="la la-user"></i>
                         <span> Profile </span> <span class="menu-arrow"></span></a>

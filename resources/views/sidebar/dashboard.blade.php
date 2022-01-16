@@ -73,6 +73,7 @@
                             <li><a href="daily-reports.html"> Daily Report </a></li>
                         </ul>
                     </li>
+
                     <!-- Account Logo
                     <li class="menu-title"> <span>Performance</span> </li>
                     <li class="submenu"> <a href="#"><i class="la la-graduation-cap"></i> <span> Performance </span> <span class="menu-arrow"></span></a>
@@ -100,6 +101,7 @@
                     <li><a href="resignation.html"><i class="la la-external-link-square"></i> <span>Resignation</span></a></li>
                     <li><a href="termination.html"><i class="la la-times-circle"></i> <span>Termination</span></a></li>
                     <li class="menu-title"> <span>Administration</span> </li>
+
                     <li> <a href="assets.html"><i class="la la-object-ungroup"></i> <span>Assets</span></a> </li>
                     <li class="submenu"> <a href="#"><i class="la la-briefcase"></i> <span> Jobs </span> <span class="menu-arrow"></span></a>
                         <ul style="display: none;">
