@@ -435,6 +435,5 @@
                 </div>
             </div>
         </div>
-        <!-- /Page Content -->
     </div>
 @endsection
