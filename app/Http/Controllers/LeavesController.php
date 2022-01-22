@@ -5,8 +5,12 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Brian2694\Toastr\Facades\Toastr;
 use App\Models\LeavesAdmin;
+use session;
 use DB;
 use DateTime;
+
+
+
 
 class LeavesController extends Controller
 {
@@ -122,7 +126,8 @@ class LeavesController extends Controller
     // attendance employee
     public function AttendanceEmployee()
     {
-        return view('form.attendanceemployee');
+        $attendance = DB::table('attendance')->get();
+        return view('form.attendanceemployee', ['attendance' => $attendance]);
     }
 
     // leaves Employee
@@ -130,6 +135,18 @@ class LeavesController extends Controller
     {
         return view('form.leavesemployee');
     }
+
+   //function call QR CODE
+   
+   public function qrCome1()
+   {
+    $username = session('user')->name;
+    //print_r($test);
+    DB::table('attendance')->insert([
+        'name' => $username 
+    ]);
+   }
+
 
     // shiftscheduling
     public function shiftScheduLing()

@@ -7,6 +7,10 @@ use DB;
 use Carbon\Carbon;
 use PDF;
 use App\Models\User;
+
+
+
+
 class HomeController extends Controller
 {
     /**
@@ -25,6 +29,9 @@ class HomeController extends Controller
      * @return \Illuminate\Contracts\Support\Renderable
      */
     // main dashboard
+
+ 
+
     public function index()
     {
         return view('dashboard.dashboard');
