@@ -73460,7 +73460,7 @@ var render = function() {
                           _vm._v(" "),
                           _c("td", [_vm._v(_vm._s(user.name))]),
                           _vm._v(" "),
-                          _c("td", [_vm._v(_vm._s(user.email))]),
+                          _c("td", [_vm._v(_vm._s(auser.email))]),
                           _vm._v(" "),
                           _c("td", [
                             _vm._v(_vm._s(_vm._f("upText")(user.type)))

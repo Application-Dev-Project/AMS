@@ -116,26 +116,7 @@
                     <li><a href="promotion.html"><i class="la la-bullhorn"></i> <span>Promotion</span></a></li>
                     <li><a href="resignation.html"><i class="la la-external-link-square"></i> <span>Resignation</span></a></li>
                     <li><a href="termination.html"><i class="la la-times-circle"></i> <span>Termination</span></a></li>
-                    <li class="menu-title"> <span>Administration</span> </li>
-                    <li> <a href="assets.html"><i class="la la-object-ungroup">
-                        </i> <span>Assets</span></a>
-                    </li>
-                    <li class="submenu"> <a href="#"><i class="la la-briefcase"></i>
-                        <span> Jobs </span> <span class="menu-arrow"></span></a>
-                        <ul style="display: none;">
-                            <li><a href="user-dashboard.html"> User Dasboard </a></li>
-                            <li><a href="jobs-dashboard.html"> Jobs Dasboard </a></li>
-                            <li><a href="jobs.html"> Manage Jobs </a></li>
-                            <li><a href="manage-resumes.html"> Manage Resumes </a></li>
-                            <li><a href="shortlist-candidates.html"> Shortlist Candidates </a></li>
-                            <li><a href="interview-questions.html"> Interview Questions </a></li>
-                            <li><a href="offer_approvals.html"> Offer Approvals </a></li>
-                            <li><a href="experiance-level.html"> Experience Level </a></li>
-                            <li><a href="candidates.html"> Candidates List </a></li>
-                            <li><a href="schedule-timing.html"> Schedule timing </a></li>
-                            <li><a href="apptitude-result.html"> Aptitude Results </a></li>
-                        </ul>
-                    </li>
+                    
                     <li class="menu-title"> <span>Pages</span> </li>
                     <li class="submenu"> <a href="#"><i class="la la-user"></i>
                         <span> Profile </span> <span class="menu-arrow"></span></a>
@@ -172,12 +153,23 @@
                     <div class="card punch-status">
                         <div class="card-body">
                             <h5 class="card-title">Timesheet <small class="text-muted">11 Mar 2019</small></h5>
+                            <div>
+                                <!-- QR CODE Link -->
+                                <!-- http://localhost:8000/form/attendanceemplyee-->
+                            {!! QrCode::size(250)->generate('https://forms.gle/UVHFZD3jz4THYPgW8 '); !!}
+                            <i class="fas fa-clock"></i> 
+                            </div>
+
+  
+
                             <div class="punch-det">
                                 <h6>Punch In at</h6>
                                 <p>Wed, 11th Mar 2019 10.00 AM</p>
                             </div>
                             <div class="punch-info">
                                 <div class="punch-hours">
+                                    
+
                                     <span>3.45 hrs</span>
                                 </div>
                             </div>
@@ -350,35 +342,23 @@
                         <table class="table table-striped custom-table datatable">
                             <thead>
                                 <tr>
-                                    <th>No</th>
-                                    <th>Date </th>
-                                    <th>Punch In</th>
-                                    <th>Punch Out</th>
-                                    <th>Production</th>
-                                    <th>Break</th>
-                                    <th>Overtime</th>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Time In</th>
+                                    <th>Time Out</th>
                                 </tr>
                             </thead>
+                            <?php foreach ($attendance as $attendances): print_r ($attendances->time_in)?>
+                              
                             <tbody>
+                               <tr>
+                                   <td><?php print_r ($attendances->id)?></td>
+                                   <td><?php print_r ($attendances->name)?></td>
+                                   <td><?php print_r ($attendances->time_in)?></td>
+                                   <td><button>check out</button></td>
                                 <tr>
-                                    <td>1</td>
-                                    <td>19 Feb 2019</td>
-                                    <td>10 AM</td>
-                                    <td>7 PM</td>
-                                    <td>9 hrs</td>
-                                    <td>1 hrs</td>
-                                    <td>0</td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>20 Feb 2019</td>
-                                    <td>10 AM</td>
-                                    <td>7 PM</td>
-                                    <td>9 hrs</td>
-                                    <td>1 hrs</td>
-                                    <td>0</td>
-                                </tr>
                             </tbody>
+                            <?php endforeach; ?>
                         </table>
                     </div>
                 </div>
@@ -388,6 +368,7 @@
 
         </div>
         <!-- /Page Content -->
+        
 
    
     </div>

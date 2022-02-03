@@ -8,9 +8,9 @@
 		<meta name="keywords" content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
         <meta name="author" content="soengsouy">
         <meta name="robots" content="noindex, nofollow">
-        <title>Login HRMS</title>
+        <title>Attendance Management System</title>
 		<!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="{{ URL::to('assets/img/favicon.png') }}">
+        <link rel="shortcut icon" type="image/x-icon" href="{{ URL::to('assets/img/ams.png') }}">
 		<!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ URL::to('assets/css/bootstrap.min.css') }}">
 		<!-- Fontawesome CSS -->

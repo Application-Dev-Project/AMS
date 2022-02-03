@@ -37,12 +37,9 @@
                     <li class="menu-title"> <span>HR</span> </li>
                     <li class="submenu"> <a href="#"><i class="la la-files-o"></i> <span> Sales </span> <span class="menu-arrow"></span></a>
                         <ul style="display: none;">
-                            <li><a href="estimates.html">Estimates</a></li>
+
                             <li><a href="invoices.html">Invoices</a></li>
-                            <li><a href="payments.html">Payments</a></li>
-                            <li><a href="expenses.html">Expenses</a></li>
-                            <li><a href="provident-fund.html">Provident Fund</a></li>
-                            <li><a href="taxes.html">Taxes</a></li>
+
                         </ul>
                     </li>
                     <li class="submenu"> <a href="#"><i class="la la-files-o"></i> <span> Accounting </span> <span class="menu-arrow"></span></a>
@@ -76,7 +73,35 @@
                             <li><a href="daily-reports.html"> Daily Report </a></li>
                         </ul>
                     </li>
-                   
+
+                    <!-- Account Logo
+                    <li class="menu-title"> <span>Performance</span> </li>
+                    <li class="submenu"> <a href="#"><i class="la la-graduation-cap"></i> <span> Performance </span> <span class="menu-arrow"></span></a>
+                        <ul style="display: none;">
+                            <li><a href="performance-indicator.html"> Performance Indicator </a></li>
+                            <li><a href="performance.html"> Performance Review </a></li>
+                            <li><a href="performance-appraisal.html"> Performance Appraisal </a></li>
+                        </ul>
+                    -->
+                    </li>
+                    <li class="submenu"> <a href="#"><i class="la la-crosshairs"></i> <span> Goals </span> <span class="menu-arrow"></span></a>
+                        <ul style="display: none;">
+                            <li><a href="goal-tracking.html"> Goal List </a></li>
+                            <li><a href="goal-type.html"> Goal Type </a></li>
+                        </ul>
+                    </li>
+                    <li class="submenu"> <a href="#"><i class="la la-edit"></i> <span> Training </span> <span class="menu-arrow"></span></a>
+                        <ul style="display: none;">
+                            <li><a href="training.html"> Training List </a></li>
+                            <li><a href="trainers.html"> Trainers</a></li>
+                            <li><a href="training-type.html"> Training Type </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="promotion.html"><i class="la la-bullhorn"></i> <span>Promotion</span></a></li>
+                    <li><a href="resignation.html"><i class="la la-external-link-square"></i> <span>Resignation</span></a></li>
+                    <li><a href="termination.html"><i class="la la-times-circle"></i> <span>Termination</span></a></li>
+                    <li class="menu-title"> <span>Administration</span> </li>
+
                     <li> <a href="assets.html"><i class="la la-object-ungroup"></i> <span>Assets</span></a> </li>
                     <li class="submenu"> <a href="#"><i class="la la-briefcase"></i> <span> Jobs </span> <span class="menu-arrow"></span></a>
                         <ul style="display: none;">
