@@ -13,6 +13,7 @@ class ProfileInformation extends Model
         'rec_id',
         'email',
         'birth_date',
+        'birth_place',
         'gender',
         'address',
         'state',

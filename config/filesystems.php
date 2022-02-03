@@ -77,3 +77,4 @@ return [
     ],
 
 ];
+/* Laravel*/
