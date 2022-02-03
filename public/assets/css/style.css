@@ -184,7 +184,7 @@ a:focus {
 	outline: none;
 }
 .form-control {
-	border-color: #e3e3e3;
+	border-color: #f70404;
     box-shadow: none;
     font-size: 15px;
     height: 44px;
@@ -254,7 +254,7 @@ textarea.form-control {
 	font-feature-settings: 'liga';
 }
 .input-group-text {
-	background-color: #f7f7f7;
+	background-color: #0dc5f3;
 	border-color: #e3e3e3;
 }
 select.form-control[multiple] option, select.form-control[size] option {
