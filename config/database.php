@@ -145,3 +145,4 @@ return [
     ],
 
 ];
+/* Laravel*/
