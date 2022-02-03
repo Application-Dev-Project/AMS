@@ -22,7 +22,6 @@ class PayrollController extends Controller
         return view('payroll.employeesalary',compact('users','userList','permission_lists'));
     }
 
-    // save record
      public function saveRecord(Request $request)
      {
         $request->validate([
@@ -72,7 +71,6 @@ class PayrollController extends Controller
         }
      }
 
-    // salary view detail
     public function salaryView($rec_id)
     {
         $users = DB::table('users')
@@ -84,7 +82,6 @@ class PayrollController extends Controller
         return view('payroll.salaryview',compact('users'));
     }
 
-    // update record
     public function updateRecord(Request $request)
     {
         DB::beginTransaction();
@@ -121,7 +118,6 @@ class PayrollController extends Controller
         }
     }
 
-    // delete record
     public function deleteRecord(Request $request)
     {
         DB::beginTransaction();
@@ -140,7 +136,6 @@ class PayrollController extends Controller
         }
     }
 
-    // payroll Items
     public function payrollItems()
     {
         return view('payroll.payrollitems');
