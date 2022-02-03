@@ -8,7 +8,7 @@
             <div id="sidebar-menu" class="sidebar-menu">
                 <ul>
                     <li class="menu-title">
-                        <span>Main</span>
+                        <span>Main Menu</span>
                     </li>
                     <li class="submenu">
                         <a href="#">

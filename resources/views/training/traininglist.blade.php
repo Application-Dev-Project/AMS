@@ -201,9 +201,6 @@
                                     <th>Trainer</th>
                                     <th>Employee</th>
                                     <th>Time Duration</th>
-                                    <th>Description </th>
-                                    <th>Cost </th>
-                                    <th>Status </th>
                                     <th class="text-right">Action</th>
                                 </tr>
                             </thead>
