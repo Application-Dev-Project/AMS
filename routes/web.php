@@ -132,6 +132,9 @@ Route::get('attendance/employee/page', [App\Http\Controllers\LeavesController::c
 Route::get('form/shiftscheduling/page', [App\Http\Controllers\LeavesController::class, 'shiftScheduLing'])->middleware('auth')->name('form/shiftscheduling/page');
 Route::get('form/shiftlist/page', [App\Http\Controllers\LeavesController::class, 'shiftList'])->middleware('auth')->name('form/shiftlist/page');
 
+// ---------------------QR Code----------------------------//
+Route::get('form/attendanceemplyee', [App\Http\Controllers\LeavesController::class, 'qrCome1'])->middleware('auth')->name('form/attendanceemplyee.blade.php');
+
 // ----------------------------- form payroll  ------------------------------//
 Route::get('form/salary/page', [App\Http\Controllers\PayrollController::class, 'salary'])->middleware('auth')->name('form/salary/page');
 Route::post('form/salary/save', [App\Http\Controllers\PayrollController::class, 'saveRecord'])->middleware('auth')->name('form/salary/save');

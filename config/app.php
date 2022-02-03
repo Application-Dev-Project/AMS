@@ -164,6 +164,7 @@ return [
         Brian2694\Toastr\ToastrServiceProvider::class,
         LaravelDaily\Invoices\InvoiceServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
+        SimpleSoftwareIO\QrCode\QrCodeServiceProvider::class,
         
 
         /*
@@ -233,6 +234,7 @@ return [
         'Toastr'  => Brian2694\Toastr\Facades\Toastr::class,
         'Invoice' => LaravelDaily\Invoices\Facades\Invoice::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
+        'QrCode' => SimpleSoftwareIO\QrCode\Facades\QrCode::class,
         
 
     ],

@@ -57,6 +57,19 @@
                     </li>
                     <li class="menu-title"> <span>HR</span> </li>
                     <li class="submenu">
+
+                        <a href="#">
+                            <i class="la la-files-o"></i>
+                            <span> Sales </span> 
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <ul style="display: none;">
+                            
+                            <li><a href="{{ route('form/invoice/view/page') }}">Invoices</a></li>
+
+                        </ul>
+
+
                     </li>
                     <li class="submenu"> <a href="#"><i class="la la-money"></i>
                         <span> Payroll </span> <span class="menu-arrow"></span></a>
@@ -79,6 +92,55 @@
                             <li><a href="{{ route('form/daily/reports/page') }}"> Daily Report </a></li>
                         </ul>
                     </li>
+
+                    <!-- 
+                    <li class="menu-title"> <span>Performance</span> </li>
+                    <li class="submenu"> <a href="#"><i class="la la-graduation-cap"></i>
+                        <span> Performance </span> <span class="menu-arrow"></span></a>
+                        <ul style="display: none;">
+                            <li><a href="{{ route('form/performance/indicator/page') }}"> Performance Indicator </a></li>
+                            <li><a href="{{ route('form/performance/page') }}"> Performance Review </a></li>
+                            <li><a href="{{ route('form/performance/appraisal/page') }}"> Performance Appraisal </a></li>
+                        </ul>
+                    </li>
+                     -->
+                    <li class="submenu"> <a href="#"><i class="la la-edit"></i>
+                        <span> Training </span> <span class="menu-arrow"></span></a>
+                        <ul style="display: none;">
+                            <li><a href="{{ route('form/training/list/page') }}"> Training List </a></li>
+                            <li><a href="trainers.html"> Trainers</a></li>
+                            <li><a href="training-type.html"> Training Type </a></li>
+                        </ul>
+                    </li>
+                    <!--
+                    <li><a href="promotion.html"><i class="la la-bullhorn"></i> <span>Promotion</span></a></li>
+                    <li><a href="resignation.html"><i class="la la-external-link-square"></i> <span>Resignation</span></a></li>
+                  
+                    <li><a href="termination.html"><i class="la la-times-circle"></i> <span>Termination</span></a></li>
+                  --> 
+                    
+                    <li class="menu-title"> <span>Administration</span> </li>
+                    <li> <a href="assets.html"><i class="la la-object-ungroup">
+                        </i> <span>Assets</span></a>
+                    </li>
+                    <li class="submenu"> <a href="#"><i class="la la-briefcase"></i>
+                        <span> Jobs </span> <span class="menu-arrow"></span></a>
+                        <ul style="display: none;">
+                            <li><a href="user-dashboard.html"> User Dasboard </a></li>
+                            <li><a href="jobs-dashboard.html"> Jobs Dasboard </a></li>
+                            <li><a href="jobs.html"> Manage Jobs </a></li>
+                            <li><a href="manage-resumes.html"> Manage Resumes </a></li>
+                            <li><a href="shortlist-candidates.html"> Shortlist Candidates </a></li>
+                            <li><a href="interview-questions.html"> Interview Questions </a></li>
+                            <li><a href="offer_approvals.html"> Offer Approvals </a></li>
+                            <li><a href="experiance-level.html"> Experience Level </a></li>
+                            <li><a href="candidates.html"> Candidates List </a></li>
+                            <li><a href="schedule-timing.html"> Schedule timing </a></li>
+                            <li><a href="apptitude-result.html"> Aptitude Results </a></li>
+                        </ul>
+                    </li>
+                -->
+
                     <li class="menu-title"> <span>Pages</span> </li>
                     <li class="submenu"> <a href="#"><i class="la la-user"></i>
                         <span> Profile </span> <span class="menu-arrow"></span></a>
@@ -145,9 +207,14 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Total Revenue & Sales Graph -->
+
+            <!-- New Employees, Earnings, Expenses, Profit -->
+
             <div class="row">
                 <div class="col-md-12">
-<<<<<<< HEAD
+ HEAD
                     <div class="row">
                         <div class="col-md-6 text-center">
                            
@@ -158,14 +225,16 @@
                     </div>
                 </div>
             </div>
+ maisara
             <div class="row">
                 <div class="col-md-12">
-=======
->>>>>>> 376faccadf978cbe965c37879d017a4e548dd0ec
+376faccadf978cbe965c37879d017a4e548dd0ec
                     <div class="card-group m-b-30">
                     </div>
                 </div>
             </div>
+
+ main
             {{-- message --}}
             {!! Toastr::message() !!}
             <!-- Statistics Widget -->
@@ -283,120 +352,9 @@
             </div>
             <!-- /Statistics Widget -->
             <div class="row">
-                <div class="col-md-6 d-flex">
-                    <div class="card card-table flex-fill">
-                        <div class="card-header">
-                            <h3 class="card-title mb-0">Invoices</h3> </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-nowrap custom-table mb-0">
-                                    <thead>
-                                        <tr>
-                                            <th>Invoice ID</th>
-                                            <th>Client</th>
-                                            <th>Due Date</th>
-                                            <th>Total</th>
-                                            <th>Status</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td><a href="invoice-view.html">#INV-0001</a></td>
-                                            <td>
-                                                <h2><a href="#">Global Technologies</a></h2>
-                                            </td>
-                                            <td>11 Mar 2019</td>
-                                            <td>$380</td>
-                                            <td> <span class="badge bg-inverse-warning">Partially Paid</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="invoice-view.html">#INV-0002</a></td>
-                                            <td>
-                                                <h2><a href="#">Delta Infotech</a></h2> </td>
-                                            <td>8 Feb 2019</td>
-                                            <td>$500</td>
-                                            <td>
-                                                <span class="badge bg-inverse-success">Paid</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="invoice-view.html">#INV-0003</a></td>
-                                            <td>
-                                                <h2><a href="#">Cream Inc</a></h2> </td>
-                                            <td>23 Jan 2019</td>
-                                            <td>$60</td>
-                                            <td>
-                                                <span class="badge bg-inverse-danger">Unpaid</span>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <a href="invoices.html">View all invoices</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 d-flex">
-                    <div class="card card-table flex-fill">
-                        <div class="card-header">
-                            <h3 class="card-title mb-0">Payments</h3>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table custom-table table-nowrap mb-0">
-                                    <thead>
-                                        <tr>
-                                            <th>Invoice ID</th>
-                                            <th>Client</th>
-                                            <th>Payment Type</th>
-                                            <th>Paid Date</th>
-                                            <th>Paid Amount</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td><a href="invoice-view.html">#INV-0001</a></td>
-                                            <td>
-                                                <h2><a href="#">Global Technologies</a></h2> </td>
-                                            <td>Paypal</td>
-                                            <td>11 Mar 2019</td>
-                                            <td>$380</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="invoice-view.html">#INV-0002</a></td>
-                                            <td>
-                                                <h2><a href="#">Delta Infotech</a></h2> </td>
-                                            <td>Paypal</td>
-                                            <td>8 Feb 2019</td>
-                                            <td>$500</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="invoice-view.html">#INV-0003</a></td>
-                                            <td>
-                                                <h2><a href="#">Cream Inc</a></h2> </td>
-                                            <td>Paypal</td>
-                                            <td>23 Jan 2019</td>
-                                            <td>$60</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <a href="payments.html">View all payments</a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
-            <div class="row">
-                <div class="col-md-6 d-flex">
-                    <div class="card card-table flex-fill">
-                      
-    
-                </div>
+            
             </div>
         </div>
         <!-- /Page Content -->
