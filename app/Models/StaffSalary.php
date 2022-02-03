@@ -21,6 +21,7 @@ class StaffSalary extends Model
         'tds',
         'esi',
         'pf',
+        'socso',
         'leave',
         'prof_tax',
         'labour_welfare',

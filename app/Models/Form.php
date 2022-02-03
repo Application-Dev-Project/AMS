@@ -18,6 +18,7 @@ class Form extends Model
     'country',
     'phone',
     'facebook_name',
+    'linkedin_name',
     'youtube_name'
    ];
 }
