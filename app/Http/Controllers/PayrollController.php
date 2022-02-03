@@ -9,7 +9,7 @@ use Brian2694\Toastr\Facades\Toastr;
 
 class PayrollController extends Controller
 {
-    // view page salary
+
     public function salary()
     {
 
