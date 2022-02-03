@@ -8,13 +8,16 @@
         "php": "^7.3|^8.0",
         "barryvdh/laravel-dompdf": "^0.9.0",
         "brian2694/laravel-toastr": "^5.56",
+        "doctrine/dbal": "^3.3",
+        "endroid/qr-code": "^4.4",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.40",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.3",
-        "laraveldaily/laravel-invoices": "^2.2"
+        "laraveldaily/laravel-invoices": "^2.2",
+        "simplesoftwareio/simple-qrcode": "^4.2"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
